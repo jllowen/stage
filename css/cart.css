@@ -1,0 +1,41 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width 100%;
+}
+
+#overview {
+    witdh: 25%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align : left;
+    width 6%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding-right: 30px;
+}
+
+#overview {
+    width 23%;
+}
+
+#title {
+    width: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#cartsz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,19 @@
+.blokie{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr))
+
+}
+.card{
+    background-color: rgb(229, 255, 0);
+    border:solid black;
+    padding: 20px 12px;
+    display: grid;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 20px;
+    -moz-box-shadow: rgba(48, 48, 48, 0.36) 0 0px .4vw;
+    -webkit-box-shadow: rgba(48, 48, 48, 0.36) 0 0px .4vw;
+    box-shadow: rgba(48, 48, 48, 0.36) 0 0px .4vw;
+}

@@ -1,0 +1,58 @@
+nav{
+background-color: rgb(75, 75, 75);
+height: 30vh;
+width: 100vw;
+display: flex;
+flex-direction: column;
+}
+
+nav a{
+
+}
+
+nav .group{
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: 0px;
+}
+nav .group a{
+    text-decoration:none;  
+    color: rgb(200,200,200);
+    font-size: 2em;
+    font-size: 3vw;
+    margin-right: 3vw;
+
+}
+nav .group .seperator{
+width: 2px;
+height: 40px;
+}
+
+nav .cart{
+    position: absolute;
+    background-color:;
+    left:auto;
+    bottom:auto;
+    margin-right:150px;
+    margin-top:50px;
+    float: right;
+    align-self: flex-end;
+    width: 5vw;
+    height: auto;
+    display: flex;
+}
+
+nav .cart .counter{
+margin: auto;
+padding-top: 26%;
+font-weight: bolder;
+padding-left: 13%;
+}
+
+
+nav .cart a img{
+position: absolute;
+width: 5vw;
+height: auto;
+}
